@@ -1,2 +1,2 @@
 # CLEFIA
-architecture in verilog from algorithm of cryptography CLEFIA.
+Architecture in verilog from cryptography algorithm CLEFIA.
