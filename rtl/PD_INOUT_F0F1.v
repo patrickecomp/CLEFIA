@@ -9,10 +9,9 @@
 //      out_mux_pd: 32 bits saida.
 
 module PD_INOUT_F0F1(input [31:0] in_R9, input sel, input [31:0] in_F0F1, input [31:0] in_pd_mux, input clk,
-output reg [31:0] out_F0F1, output reg [31:0] out_mux_pd);
+output reg [31:0] out_F0F1, output reg [31:0] R11, output [31:0] R);
 
-wire [31:0] R;
-reg [31:0] R11;
+
 reg [31:0] R10;
 
 assign R = in_R9 ^ in_F0F1;
@@ -33,7 +32,6 @@ always @ (posedge clk)
  begin
     R10 <= R;
 	 R11 <= R10;
-	 out_mux_pd <= R11;
 	 
  end
 

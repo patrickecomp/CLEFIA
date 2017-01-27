@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/patrickvieira
+vcon_i
+Z0 !s110 1485546924
+!i10b 1
+!s100 OaHC;8LHGFPh_3n7P=[5A2
+I3ClQLa`9UkllgI0e:UlT:0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/patrickvieira/Projects/CLEFIA/sim
+w1485546873
+8/home/patrickvieira/Projects/CLEFIA/rtl/con_i.v
+F/home/patrickvieira/Projects/CLEFIA/rtl/con_i.v
+L0 9
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1485546924.000000
+Z5 !s107 /home/patrickvieira/Projects/CLEFIA/rtl/con_i.v|/home/patrickvieira/Projects/CLEFIA/sim/conTestbench.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|/home/patrickvieira/Projects/CLEFIA/sim/conTestbench.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vconTestbench
+R0
+!i10b 1
+!s100 4OCE@gmCWz;YD;i]eSI8>1
+I^9=MoK0QF2;fRlhV2abMR3
+R1
+R2
+w1485545555
+8/home/patrickvieira/Projects/CLEFIA/sim/conTestbench.v
+F/home/patrickvieira/Projects/CLEFIA/sim/conTestbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+ncon@testbench

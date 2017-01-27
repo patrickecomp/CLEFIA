@@ -29,7 +29,7 @@ module SBOXTestbench();
 	integer i;
     localparam loops = 25;
     initial begin
-	$readmemh("s0_dados.txt", dados_s0);
+	$readmemh("/home/patrickvieira/Projects/CLEFIA/sim/s0_dados.txt", dados_s0);
         for(i = 0; i < loops; i = i + 1)
         begin
             #1;

@@ -7,12 +7,9 @@
 // Out: out_R9: 32 bits saida para o PD3.
 
 module PD_REG(input [31:0] in_mux2, input [1:0] sel1, input sel2, input [31:0] in_R1, input clk,
-output reg [31:0] out_R9);
+output reg [31:0] out_R9, output reg [31:0] R1, output reg [31:0] R2, output reg [31:0] R3);
 
 
-reg [31:0] R1;
-reg [31:0] R2;
-reg [31:0] R3;
 reg [31:0] R4;
 reg [31:0] R5;
 reg [31:0] R6;
